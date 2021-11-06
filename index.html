@@ -3,7 +3,34 @@
     <title> Animation | Random Challenger | Soham's Website</title>
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="style.css">
+
+    <script>
+       
+  
+        var randomlinks=new Array()
+        
+        randomlinks[0]="https://www.blender.org/"
+        randomlinks[1]="https://opentoonz.github.io/"
+        randomlinks[2]="https://krita.org/en/"
+        randomlinks[3]="https://www.autodesk.com/products/maya/overview?term=1-YEAR&tab=subscription"
+        randomlinks[4]="https://www.maxon.net/en/cinema-4d"
+        randomlinks[5]="https://www.muvizu.com/"
+        randomlinks[6]="https://www.autodesk.in/products/3ds-max/overview"
+        randomlinks[7]="https://www.toonboom.com/products/harmony"
+        randomlinks[8]="https://www.adobe.com/in/products/animate.html"
+        randomlinks[9]="https://www.adobe.com/in/products/character-animator.html"
+        randomlinks[10]="https://www.reallusion.com/iclone/"
+        randomlinks[11]="https://www.reallusion.com/cartoon-animator/"
+        randomlinks[12]=""
+        
+        function randomlink(){
+        window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+        }
+       
+        </script>
 </head>
+
+
 <body>
     <div class="page">
         <center><h1 class="headw"> Welcome to the Animation Softwares Randomizer!</h1></center>
@@ -14,6 +41,7 @@
     </div>
     <br>
     <div class="stone"> 
-       <center> <button class="r">Randomize!</button></center>
+       <center> <a href="javascript:randomlink()"><button class="r">Randomize!</button></a></center>
+       <center><h1 class="head2w">Click Randomize...</h1></center>
     </div>
 </body>
