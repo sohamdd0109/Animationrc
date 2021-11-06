@@ -1,5 +1,10 @@
 body {
     background: fixed;
-    background-image: url(background.gif), url(plank.jpg);
+    background-image: url(plank.jpg), url(background.gif);
     background-position:no-repeat, no-repeat;
+    
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 1000px 9960px, cover;
+    background-position: center;
 }
