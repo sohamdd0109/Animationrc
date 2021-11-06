@@ -1,4 +1,5 @@
 body {
     background: fixed;
-    background-image: url(background.gif);
+    background-image: url(background.gif), url(plank.jpg);
+
 }
