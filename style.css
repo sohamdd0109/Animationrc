@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
 
     body {
@@ -20,13 +20,13 @@
     
     background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: 1000px 9960px;
+    background-size: 1090px 9990px;
     background-position: center;
 }
 
 .stone {
     background: fixed;
-    background-image: url(plank.jpg);
+    background-image: url(cobblestone.png);
     background-position:no-repeat;
     
     background-position: right bottom;
@@ -47,5 +47,20 @@
 
 .headg {
     font-family: 'Fruktur', cursive;
+    color: rgb(30, 255, 0);
+}
+
+.head2w {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: white;
+}
+
+.head2b {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.head2g {
+    font-family: 'Mochiy Pop P One', sans-serif;
     color: rgb(30, 255, 0);
 }
